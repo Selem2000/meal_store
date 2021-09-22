@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+.meal-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 2%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.meal-preview {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 2px solid #333;
+  border-radius: 2%;
+  overflow: hidden;
+  padding: 1%;
+}
+.meal-preview img {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.meal-description {
+  margin: 0 4%;
+  width: 50%;
+}
+.aboutUs {
+  margin: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.company {
+  margin-right: 16%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.company h1 {
+  font-size: 40px;
+  font-weight: 900;
+}
+.aboutUs p {
+  line-height: 34px;
+  font-size: 23px;
+}
+
+.MuiPagination-ul {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin: 4% !important;
 }

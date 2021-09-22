@@ -1,0 +1,15 @@
+.search{
+    background: #fff;
+    padding: 1px 10px;
+    border-radius: 50px;
+}
+.search input{
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    padding: 6px 10px;
+    
+}
+.search input:focus{
+    outline: none;
+}
